@@ -1,0 +1,11 @@
+permalink: pretty
+markdown: kramdown
+
+title: ts.carlgo11.com
+author: Carlgo11
+img: img/logo.png
+exclude:
+    - CNAME
+    - README.md
+    - Gemfile
+

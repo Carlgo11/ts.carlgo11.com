@@ -1,0 +1,12 @@
+---
+layout: default
+---
+
+<div class="row show-grid">
+{% for file in site.data.files %}
+<div id="asd" class="col-md-3 col-sm-3">
+<h3>{{file.name}}</h3>
+<a href="files/{{file.path}}"><div class="btn btn-default" style="margin-bottom: 10px">Download</div></a>
+</div>
+{%endfor%}
+</div>
