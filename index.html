@@ -4,12 +4,14 @@ layout: default
 <audio id="audio_player"></audio>
 <div class="row show-grid">
   {% for file in site.data.files %}
-  <div id="asd" class="col-md-3 col-sm-2">
+  <div id="asd" class="col-md-3 com-xs-12" onclick="playAudio('files/{{file.path}}')">
     <h3>{{file.name}}</h3>
-    <div class="btn btn-default play-btn" onclick="playAudio('files/{{file.path}}')">Play</div>
-    <a download="files/{{file.path}}" href="files/{{file.path}}">
-      <div class="btn btn-default download-btn">Download</div>
-    </a>
+    <div id="buttons">
+      <div class="btn btn-default play-btn" onclick="playAudio('files/{{file.path}}')">Play</div>
+      <a download="files/{{file.path}}" href="files/{{file.path}}">
+        <div class="btn btn-default download-btn">Download</div>
+      </a>
+    </div>
   </div>
   {%endfor%}
 </div>

@@ -1,18 +1,28 @@
 #asd {
   background-color: #eee;
   border: 1px solid #ddd;
-  margin: 2px;
+  margin: auto;
   border-radius: 3px;
   height: 128px;
-  text-align: center;
 }
 
-play-btn: {
+.play-btn: {
   float: left;
   margin-left: 20%;
 }
 
-download-btn {
+.download-btn {
   margin-right: 20%;
-  float: right
+  float: right;
+}
+
+#buttons {
+  width: 100%;
+  bottom: 10px;
+  position: absolute;
+}
+.row {
+  text-align: center;
+  width: 100%;
+  margin: auto;
 }
