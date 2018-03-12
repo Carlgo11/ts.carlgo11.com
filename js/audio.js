@@ -1,4 +1,4 @@
-var audio_player = document.getElementById("audio_player");
+var audio_player = $("#audio_player");
 
 function playAudio($file) {
   if (audio_player.src == document.URL + $file && !audio_player.paused) {
@@ -8,6 +8,7 @@ function playAudio($file) {
     audio_player.play();
   }
 }
+
 $(".audio-element").click(function() {
   var audio = $(this).attr('play');
   playAudio(audio);

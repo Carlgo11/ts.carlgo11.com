@@ -4,9 +4,9 @@ layout: default
 <audio id="audio_player"></audio>
 <div class="row show-grid">
   {% for file in site.data.files %}
-  <div id="audio-div" play="files/{{file.path}}" class="audio-element col-md-3 com-xs-12">
+  <div play="files/{{file.path}}" class="audio-div col-md-3 com-xs-12">
     <h3>{{file.name}}</h3>
-    <div id="buttons">
+    <div class="buttons">
       <div class="btn btn-default play-btn" play="files/{{file.path}}">Play</div>
       <a download="files/{{file.path}}" href="files/{{file.path}}">
         <div class="btn btn-default download-btn">Download</div>

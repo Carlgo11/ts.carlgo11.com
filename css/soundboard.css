@@ -1,4 +1,4 @@
-.audio-element {
+.audio-div {
   background-color: #eee;
   border: 1px solid #ddd;
   margin: auto;
@@ -6,14 +6,12 @@
   height: 128px;
 }
 
-.download-btn {
-}
-
-#buttons {
+.buttons {
   width: 100%;
   bottom: 10px;
   position: absolute;
 }
+
 .row {
   text-align: center;
   width: 100%;
