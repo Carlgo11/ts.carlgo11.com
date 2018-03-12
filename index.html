@@ -4,10 +4,10 @@ layout: default
 <audio id="audio_player"></audio>
 <div class="row show-grid">
   {% for file in site.data.files %}
-  <div id="asd" class="col-md-3 com-xs-12" onclick="playAudio('files/{{file.path}}')">
+  <div id="audio-div" play="files/{{file.path}}" class="audio-element col-md-3 com-xs-12">
     <h3>{{file.name}}</h3>
     <div id="buttons">
-      <div class="btn btn-default play-btn" onclick="playAudio('files/{{file.path}}')">Play</div>
+      <div class="btn btn-default play-btn" play="files/{{file.path}}">Play</div>
       <a download="files/{{file.path}}" href="files/{{file.path}}">
         <div class="btn btn-default download-btn">Download</div>
       </a>

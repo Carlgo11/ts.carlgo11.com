@@ -1,4 +1,4 @@
-#asd {
+.audio-element {
   background-color: #eee;
   border: 1px solid #ddd;
   margin: auto;
@@ -6,14 +6,7 @@
   height: 128px;
 }
 
-.play-btn: {
-  float: left;
-  margin-left: 20%;
-}
-
 .download-btn {
-  margin-right: 20%;
-  float: right;
 }
 
 #buttons {

@@ -8,3 +8,7 @@ function playAudio($file) {
     audio_player.play();
   }
 }
+$(".audio-element").click(function() {
+  var audio = $(this).attr('play');
+  playAudio(audio);
+});
