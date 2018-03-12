@@ -1,15 +1,11 @@
-var audio_player = $("#audio_player");
+var audio_player = $("#audio_player")[0];
 
-function playAudio($file) {
-  if (audio_player.src == document.URL + $file && !audio_player.paused) {
+$(".audio-div").click(function() {
+  var audio = $(this).attr('play');
+  if (audio_player.src == document.URL + audio && !audio_player.paused) {
     audio_player.pause();
   } else {
-    audio_player.src = $file;
+    audio_player.src = audio;
     audio_player.play();
   }
-}
-
-$(".audio-element").click(function() {
-  var audio = $(this).attr('play');
-  playAudio(audio);
 });

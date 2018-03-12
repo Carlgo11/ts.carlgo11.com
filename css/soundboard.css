@@ -6,6 +6,10 @@
   height: 128px;
 }
 
+.audio-div:active {
+  background-color: #ccc;
+}
+
 .buttons {
   width: 100%;
   bottom: 10px;
