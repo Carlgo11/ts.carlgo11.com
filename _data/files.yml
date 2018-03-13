@@ -28,11 +28,17 @@
 - name: Guy laughing at 9/11
   path: 9_11.mp3
 
+- name: GTA 5 Lamar - Nigga
+  path: gta_lamar_nigga.mp3
+
 - name: I'm Gay
   path: im_gay.mp3
 
 - name: Jag kan förklara
   path: jag_kan_forklara.mp3
+  
+- name: Kan du inte cyckla eller?
+  path: kan_du_inte_cyckla_eller.mp3
 
 - name: Keemstar - Alex
   path: keemstar_alex.mp3
@@ -46,6 +52,9 @@
 - name: Rotate
   path: rotate.mp3
 
+- name: Russian Singer
+  path: chum_drum_bedrum.mp3
+
 - name: Screaming goat
   path: screaming_goat.mp3
 
@@ -57,3 +66,6 @@
 
 - name: Wii Sports Music
   path: wii_sports_music.mp3
+  
+- name: Wii Theme (Edited)
+  path: wii_theme_edit.mp3
